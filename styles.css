@@ -4,6 +4,16 @@
     padding: 0;
 } 
 
+body{
+    background: #e89292;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(194, 36, 91);
+    font-size: 16px;
+    font-family: 'Helvetica', sans-serif;
+}
 .recetas {
   list-style: none;      
   padding: 0;
@@ -15,14 +25,15 @@
   justify-content: center;
 
 }
+
 .boton {
     display: flex;              
   flex-direction: column;      
   justify-content: center;    
   align-items: center;  
-    background: pink;
-    width: 150px;
-    height: 150px;
+    background: #ffc277;
+    width: 120px;
+    height: 120px;
     padding: 20px;
     border-color: rgb(170, 68, 85);
     margin-left: 15px; 
@@ -31,11 +42,13 @@
 }  
 
 h1 {
+    font-family: 'Helvetica', sans-serif;
     font-size: 35px;
     text-align: center;
     margin-bottom: 20px;
     margin: 0px;
     padding: 10px;
+    color: rgb(255, 223, 208)
 }
 
 .descripcion {
@@ -44,4 +57,20 @@ h1 {
     margin-bottom: 10px;
     margin: 5px;
     padding: 10px;
+    color: rgb(109, 56, 68)
+    font-family: 'Helvetica', sans-serif;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
 }
