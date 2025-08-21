@@ -31,14 +31,16 @@ a {
   flex-direction: column;      
   justify-content: center;    
   align-items: center;  
-    background: #ffc277;
+    background: #ffe8cb;
     width: 120px;
     height: 120px;
-    padding: 20px;
     border-color: rgb(170, 68, 85);
     margin-left: 15px; 
     margin-right: 15px auto;
     text-align: center;
+    border-radius: 10px;
+    flex-wrap: wrap;    /* para que se acomoden si no caben */
+    padding: 1rem;      /* espacio interno en móviles */
 }  
 
 h1 {
@@ -73,4 +75,10 @@ p {
     align-items: center;
     justify-content: center;
     margin: 5px;
+}
+
+@media (max-width: 768px) {
+  ul {
+    padding: 15px; /* más aire en pantallas pequeñas */
+  }
 }
